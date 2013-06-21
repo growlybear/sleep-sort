@@ -24,6 +24,9 @@
   "bugs": {
     "url": "https://github.com/growlybear/sleep-sort/issues"
   },
+  "bin": {
+    "sleep-sort": "./bin/sleep-sort"
+  },
   "devDependencies": {
     "should": "~1.2.2",
     "mocha": "~1.11.0"
