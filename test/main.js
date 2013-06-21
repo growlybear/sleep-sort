@@ -10,4 +10,13 @@ describe('sleepsort', function () {
             });
         });
     });
+
+    describe('with a single element array', function () {
+        it('calls the callback with a single element array', function (done) {
+            var result = sleepsort([1], function (result) {
+                result.should.eql([1]);
+                done();
+            });
+        });
+    });
 });
