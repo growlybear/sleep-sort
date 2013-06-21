@@ -1,0 +1,31 @@
+{
+  "name": "sleep-sort",
+  "version": "0.0.0",
+  "description": "Implements the sleep-sort algorithm",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/growlybear/sleep-sort.git"
+  },
+  "keywords": [
+    "sleep",
+    "sort"
+  ],
+  "author": "Michael Allan (following Anders Janmyn's instructions)",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "d6531441ac9302387a35f622affb5a638b22b63a",
+  "bugs": {
+    "url": "https://github.com/growlybear/sleep-sort/issues"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.11.0"
+  }
+}
