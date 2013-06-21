@@ -1,6 +1,6 @@
 {
-  "name": "sleep-sort",
-  "version": "0.0.0",
+  "name": "sleep-sort-ripoff",
+  "version": "0.0.1",
   "description": "Implements the sleep-sort algorithm",
   "main": "lib/main.js",
   "directories": {
