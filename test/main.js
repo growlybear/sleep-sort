@@ -27,5 +27,11 @@ describe('sleepsort', function () {
                 done();
             });
         });
+        it('calls the callback with a sorted multi element array', function (done) {
+            var result = sleepsort([6, 1, 9, 4, 2], function (result) {
+                result.should.eql([1, 2, 4, 6, 9]);
+                done();
+            });
+        });
     });
 });
